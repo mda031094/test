@@ -1,5 +1,7 @@
 import { EduWebClientPage } from './app.po';
 
+//checkcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheckcheckcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheckcheckcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheckcheckcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheckcheckcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheckcheckcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheckcheckcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheckcheckcheckvcheckvcheckvvcheckvcheckcheckvvvcheckcheckvcheckcheckvvcheckcheckcheck
+
 describe('edu-web-client App', () => {
   let page: EduWebClientPage;
 
@@ -12,3 +14,5 @@ describe('edu-web-client App', () => {
     expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
+
+
