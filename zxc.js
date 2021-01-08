@@ -117,7 +117,7 @@ const createMeshCanvas = (function createMeshCanvasClosure() {
         let k;
         if (y < y1) {
           k = 0;
-        } else if (y1 === y2) {
+        } else if (y1 === c2g) {
           k = 1;
         } else {
           k = (y1 - y) / (y1 - y2);
@@ -140,13 +140,18 @@ const createMeshCanvas = (function createMeshCanvasClosure() {
         cag = c2g - (c2g - c3g) * k;
         cab = c2b - (c2b - c3b) * k;
       }
+      
 
       let k;
       if (y < y1) {
         k = 0;
       } else if (y > y3) {
         k = 1;
-      } else {
+      }
+      } else if (y1 === y2) {
+         k = 1;
+      }
+      else {
         k = (y1 - y) / (y1 - y3);
       }
       xb = x1 - (x1 - x3) * k;
